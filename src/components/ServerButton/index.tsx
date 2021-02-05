@@ -22,7 +22,7 @@ const ServerButton: React.FC<Props> = ({
       isHome={isHome}
       hasNotifications={hasNotifications}
       mentions={mentions}
-      className={isHome ? "active" : selected ? "active" : ""}
+      className={selected ? "active" : ""}
     >
       {isHome && <img src={Logo} alt="Discord" />}
     </Button>

@@ -14,6 +14,8 @@ export const Container = styled.div`
 
   z-index: 2;
 
+  cursor: pointer;
+
 `
 export const Title = styled.h1`
   font-size: 16px;
