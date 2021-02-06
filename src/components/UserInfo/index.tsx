@@ -16,7 +16,10 @@ const UserInfo: React.FC = () => {
     <Container>
       <Profile>
         <Avatar />
-        <UserData />
+        <UserData>
+          <strong>Tronirix</strong>
+          <span>#0317</span>
+        </UserData>
       </Profile>
       <Icons>
         <MicIcon />
